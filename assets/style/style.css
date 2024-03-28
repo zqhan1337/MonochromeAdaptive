@@ -1,0 +1,1405 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Medium.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+@font-face{
+    font-family:'Netural';
+    src: url(../fonts/NeutralFace.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .laung{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .laung h2{
+    font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    
+    margin-bottom: 16px;
+    transition: .5s;
+   
+}
+.header .container .laung h2:hover{
+    color: rgb(192, 22, 45);
+    transition: .3s;
+}
+.header .container .laung a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.header .container .logo h2{
+    font-size: 18px;
+    font-family: 'Netural';
+    font-weight: 500;
+    
+}
+
+
+.header .container .log{
+    display: flex;
+    align-items: center;
+    
+}
+.header .container .log .fa-magnifying-glass{
+    
+    color: black;
+}
+.header .container .log .fa-user{
+    
+    color: black;
+}
+.header .container .log .fa-cart-shopping{
+    color: black;
+}
+.header .container .log a{
+    margin-right: 20px;
+}
+
+
+.pusto{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+.header-two{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-two .container{
+    display: flex;
+    justify-content: center;
+}
+.header-two .container a{
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+
+}
+.header-two .container h2{
+    font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    transition: .5s;
+    
+}
+.header-two .container h2:hover{
+    transform: skew(-10deg);
+    transition: .3s;
+}
+
+.shop .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop .container .title{
+    display: flex;
+}
+
+.shop .container .title h1{
+    font-size: 138px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.shop .container .title h2{
+    font-size: 18px;
+    font-family: 'Manrope';
+    margin-left: 10px;
+}
+.shop .container .title h2{
+    margin-top: 167px;
+}
+.shop .container .pictures{
+    display: flex;
+    
+}
+.shop .container .womans{
+    background: url(../img/1.jpg);
+    width: 850px;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.shop .container .woman{
+    background: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 450px;
+    margin-left: 25px;
+}
+.mono{
+    margin-top: 165px;
+}
+.mono .container{
+    display: flex;
+    flex-direction: column;
+}
+.mono .container .monocr{
+    font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.mono .container .photo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mono .container .photo .photo1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mono .container .photo .frst-photo{
+    background: url(../img/3.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.mono .container .photo .photo1 h2{
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+
+
+.mono .container .photo .photo2{
+    display: flex;
+    flex-direction: column;
+}
+.mono .container .photo .scnd-photo{
+    background: url(../img/4.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+
+}
+.mono .container .photo .photo2 h2{
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+
+.mono .container .photo .photo3{
+    display: flex;
+    flex-direction: column;
+}
+.mono .container .photo .thd-photo{
+    background: url(../img/5.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+
+.mono .container .photo .photo3 h2{
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+.collection{
+    margin-top: 170px;
+}
+.collection .bg{
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.collection .bg .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection .bg .container h2{
+    text-align: center;
+    color: #fafafa;
+    font-size: 100px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 170px;
+}
+.collection .bg .container h3{
+    text-align: center;
+    color: #fafafa;
+    font-size: 32px;
+    font-family: 'Manrope';
+    font-weight: 300;
+    margin-top: 10px;
+}
+.collection .bg .container button{
+    height: 84px;
+    width: 320px;
+    font-size: 18px;
+    font-family: 'Netural';
+    margin-top: 20px;
+    transition: .5s;
+}
+.collection .bg .container button:hover{
+    background: none;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: .3s;
+}
+.season{
+    margin-top: 165px;
+}
+.season .container .ns{
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-bottom: 0;
+}
+.season .container .otum-winter{
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+}
+
+.season .container .new-season{
+    display: flex;
+    justify-content: space-between;
+}
+.season .container .new-season h2{
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+.season .container .new-season .costumfrst .costum{
+    background: url(../img/7.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.season .container .new-season .costumscnd-thrd .costum2{
+    background: url(../img/8.jpg);
+    height: 210px;
+    width: 370px;
+}
+.season .container .new-season .costumscnd-thrd .costum3{
+    background: url(../img/9.jpg);
+    height: 210px;
+    width: 370px;
+}
+.season .container .new-season .costumftz .costum4{
+    background: url(../img/10.jpg);
+    height: 485px;
+    width: 365px;
+}
+.green{
+    margin-top: 125px;
+}
+.green .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.green .container .greencostum{
+    background: url(../img/11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 680px;
+}
+.green .container .buy .star{
+    display: flex;
+    flex-direction: column;
+
+}
+.green .container .buy .star .otziv h2{
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.green .container .buy .star .otziv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.green .container .buy .star .otziv .fivestar{
+    display: flex;
+    align-items: center;
+}
+.green .container .buy .star .otziv .five{
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+.green .container .buy .star .otziv .fa-star{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+.green .container .buy .star .ot-winter{
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+.green .container .buy .size{
+    display: flex;
+    flex-direction: column;
+}
+.green .container .buy .size .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.green .container .buy .size .text h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+.green .container .buy .size .text a{
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: black;
+}
+.green .container .buy .size .choise select{ 
+    width: 470px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
+    
+}
+
+.green .container .buy .sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.green .container .buy .sell h2{
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 38px;
+}
+.green .container .buy .sell input{
+    width: 270px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.green .container .buy .sell input::-webkit-input-placeholder{
+    padding-left: 20px;
+    color: rgb(192, 192, 192);
+}
+.green .container .buy .katalog{
+    width: 470px;
+    height: 64px;
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Netural';
+    font-size: 14px;
+    transition: .5s;
+}
+.green .container .buy .katalog:hover{
+    background-color:rgb(124, 124, 124);
+    border: none;
+    transition: .3s;
+}
+.green .container .buy .infocost{
+    margin-top: 55px;
+}
+.green .container .buy .infocost label{
+    margin-right: 55px;
+}
+.green .container .buy .infocost .perecluch{
+    margin-top: 30px;
+}
+.green .container .buy .infocost .perecluch .text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+}
+.green .container .buy{
+    margin-left: 50px;
+    width: 470px;
+}
+.green .container .buy .infocost .perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+.green .container .buy .infocost .perecluch .line{
+    width: 300%;
+    display: flex;
+}
+.green .container .buy .infocost .perecluch .line .text{
+    width: calc(100%/3);
+    transition: 1s;
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    text-decoration: underline;
+    color: black;
+}
+.green .container .buy .infocost input{
+    display: none;
+}
+.green .container .buy .infocost label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(192, 192, 192);
+}
+.advantages{
+    margin-top: 120px;
+    background-color: black;
+    height: 266px;
+}
+.advantages .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+
+}
+.advantages .container h2{
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.advantages .container h3{
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+}
+.advantages .container .dostavka .fa-plane{
+    color: #fafafa;
+    width: 36px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.advantages .container .support .fa-user{
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.advantages .container .safety .fa-lock{
+    color: #fafafa;
+    width: 30px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.advantages .container .discount .fa-percent{
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.about{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about .container .twowoman{
+    background: url(../img/12.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+}
+
+.about .container .texttwwoman h2{
+    font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.about .container .texttwwoman h3{
+    font-family: 'Manrope';
+    
+    font-weight: 500;
+    font-size: 22px;
+}
+.sub{
+    background-color: black;
+    padding-bottom: 100px;
+    
+}
+.sub .container{
+    display: flex;
+    flex-direction: column;
+}
+.sub .container h2{
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 70px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+.sub .container .ras{
+    text-align: end;
+    margin-top: 0;
+}
+.sub .container .foto-input{
+    display: flex;
+    justify-content: space-between;
+}
+.sub .container .foto-input .text-woman h3{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 40px;
+}
+.sub .container .foto-input .text-woman .woman-orange{
+    background: url(../img/13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 365px;
+}
+.sub .container .foto-input .input h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+.sub .container .foto-input .input{
+    margin-top: 10px;
+}
+.sub .container .foto-input .input .abs{
+    width: 470px;
+    height: 50px;
+    background: none;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+
+.sub .container .foto-input .input .abs[type=text]{
+    padding-left: 20px;
+}
+.sub .container .foto-input .input .abs[type=tel]{
+    padding-left: 20px;
+}
+.sub .container .foto-input .input .abs[type=email]{
+    padding-left: 20px;
+}
+
+.sub .container .foto-input .vibor{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.sub .container .foto-input .vibor label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+
+    
+}
+.sub .container .foto-input .vibor input{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+.sub .container .foto-input .vibor .frst {
+    display: flex;
+    align-items: center;
+}
+.sub .container .foto-input .vibor .frst input{
+    margin-left: 0;
+}
+.sub .container .foto-input .vibor .scnd{
+    display: flex;
+    align-items: center;
+}
+.sub .container .foto-input .vibor .thd{
+    display: flex;
+    align-items: center;
+}
+.sub .container .foto-input .obrabotka{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.sub .container .foto-input .obrabotka label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+}
+.sub .container .foto-input .obrabotka input{
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+    
+}
+
+.sub .container .foto-input .input .vib-ras{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.sub .container .foto-input .input .send{
+    width: 470px;
+    height: 64px;
+    background-color: #fafafa;
+    color: black;
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 14px;
+    transition: .5s;
+}
+.sub .container .foto-input .input .send:hover{
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: .3s;
+}
+.pusto2{
+    background-color: #fafafa;
+    width: 100%;
+    height: 2px;
+}
+.contacts{
+    background-color: black;
+}
+.contacts .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contacts .container h3{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    color: #fafafa;
+}
+.contacts .container .icon{
+    display: flex;
+    align-items: center;
+    
+}
+.contacts .container .fa-vk{
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+    
+}
+.contacts .container a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+
+    .sub .container .foto-input{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .sub .container h2{
+        font-size: 54px !important;
+        margin-left: 100px;
+    }
+    .sub .container .ras{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .contacts .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+    .about .container .texttwwoman h2{
+        font-size: 40px;
+    }
+    .about .container .texttwwoman h3{
+        font-size: 18px;
+    }
+    .advantages .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .green .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .green .container .buy{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .green .container .greencostum{
+        height: 600px;
+        width: 470px;
+    }
+
+    .season .container .new-season{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .season .container .ns{
+        font-size: 54px;
+        margin-left: 80px;
+    }
+    .season .container .otum-winter{
+        font-size: 54px;
+        margin-right: 80px;
+    }
+    .collection .bg{
+        height: 600px;
+    }
+    .collection .container h2{
+        font-size: 50px !important;
+        margin-top: 70px !important;
+    }
+    .collection .container h3{
+        font-size: 24px !important;
+        
+    }
+    .collection .container button{
+        width: 250px !important;
+        height: 70px !important;
+    }
+    .mono .container .monocr{
+        display: flex;
+        justify-content: center;
+    }
+    .mono .container .photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop .container .title h1{
+        font-size: 110px;
+    }
+    .shop .container .title h2{
+        margin-top: 138px;
+    }
+    .shop .container .pictures .womans{
+        width: 690px;
+    }
+    .shop .container .pictures .woman{
+        width: 260px;
+    }
+    .header .container{
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 768px;
+    }
+    .sub .container h2{
+        margin-left: 50px;
+    }
+    .about .container{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about .container .texttwwoman h3{
+        font-size: 14px;
+        
+    }
+    .about .container .twowoman{
+        width: 300px;
+        height: 400px;
+    }
+    
+    .advantages .container{
+        padding-top: 60px;
+    }
+    .advantages .container h2{
+        font-size: 14px;
+    }
+    .advantages .container h3{
+        font-size: 12px;
+    }
+    .collection .bg{
+        height: 600px !important;
+    }
+    .collection .container h2{
+        font-size: 54px !important;
+    }
+    .collection .container h3{
+        font-size: 24px !important;
+    }
+    .collection .container button{
+        width: 170px !important;
+        height: 60px !important;
+        font-size: 12px !important;
+    }
+    .mono .container{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .mono .container .monocr{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .shop .container .title h1{
+        font-size: 74px;
+    }
+    .shop .container .title h2{
+        margin-top: 100px;
+    }
+    .shop .container .pictures .womans{
+        width: 450px !important;
+    }
+    .shop .container .pictures .woman{
+        width: 260px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+
+    .contacts .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .sub .container h2{
+        font-size: 34px !important;
+    }
+    .about .container .twowoman{
+        height: 300px;
+    }
+    .about .container .texttwwoman h2{
+        font-size: 24px;
+    }
+    .about .container .texttwwoman h3{
+        font-size: 18px;
+    }
+    .about .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .advantages .container h2{
+        font-size: 13px;
+    }
+    .advantages .container h3{
+        font-size: 11px;
+    }
+    .season .container .ns{
+        font-size: 34px;
+    }
+    .season .container .otum-winter{
+        font-size: 34px;
+    }
+    .collection .bg{
+        height: 400px !important;
+    }
+    .collection .container h2{
+        font-size: 34px !important;
+        margin-top: 40px !important;
+    }
+    .collection .container h3{
+        font-size: 18px !important;
+    }
+    .shop .container{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .shop .container .title h1{
+        font-size: 54px;
+    }
+    .shop .container .title h2{
+        font-size: 14px;
+    }
+    .shop .container .pictures .womans{
+        width: 330px !important;
+        background-position-x: -310px !important;
+    }
+    .shop .container .pictures .woman{
+        width: 200px !important;
+    }
+    .header-two .container a{
+        margin-right: 20px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+    }
+    .mono .container .monocr{
+        font-size: 34px !important;
+    }
+    .sub .container h2{
+        margin-top: 40px;
+    }
+    .sub .container .foto-input .text-woman h3{
+        font-size: 16px
+    }
+    .sub .container .foto-input .text-woman .woman-orange{
+        width: 400px !important;
+    }
+    .sub .container .foto-input .input{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .sub .container .foto-input .input .abs{
+        width: 400px !important;
+    }
+    .sub .container .foto-input .input .vibor{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub .container .foto-input .input .vibor .scnd input{
+        margin-left: 0;
+    }
+    .sub .container .foto-input .input .vibor .thd input{
+        margin-left: 0;
+    }
+    .sub .container .foto-input .input button{
+        width: 400px !important;
+    }
+    .sub .container h2{
+        margin-left: 40px !important;
+    }
+    .about .container .texttwwoman h3{
+        font-size: 15px !important;
+    }
+    .advantages .container h2{
+        font-size: 11px !important;
+    }
+    .advantages .container h3{
+        font-size: 8px !important;
+    }
+    .advantages .container{ padding-top: 50px !important;}
+    .advantages{
+        margin-top: 40px !important;
+        height: 220px !important;
+    }
+    .green .container .buy .choise select{
+        width: 400px !important;
+    }
+    .green .container .buy .sell input{
+        width: 200px !important;
+        margin-left: 20px !important;
+    }
+    .green .container .buy .sell h2{
+        margin-right: 20px !important;
+    }
+    .green .container .buy button{
+        width: 400px !important;
+    }
+    .green .container .buy{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    .green .container .buy .bigtext{
+        font-size: 14px !important;
+    }
+    .green .container .greencostum{
+        width: 400px !important;
+        height: 500px !important;
+    }
+    .green{margin-top: 40px !important;}
+    .season{
+        margin-top: 40px !important;
+    }
+    .collection{
+        margin-top: 40px !important;
+    }
+    .collection .container h3{
+        font-size: 14px !important;
+    }
+    .collection .container button{
+        width: 140px !important;
+        height: 50px !important;
+        font-size: 10px !important;
+    }
+    .mono{
+        margin-top: 40px !important;
+    }
+    .shop .container .pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop .container .pictures .womans{
+        width: 450px !important;
+        height: 180px !important;
+        background-position-x: -10px !important;
+    }
+    .shop .container .pictures .woman{
+        width: 450px !important;
+        height: 180px !important;
+        margin-left: 0;
+        margin-top: 10px !important;
+        background-size: cover;
+        background-position-y: -30px !important;
+    }
+    .shop .container .title h2{
+        font-size: 12px !important;
+        margin-top: 63px !important;
+    }
+    .header-two .container a{
+        margin-right: 10px !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    
+    .sub .container h2{
+        font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+        
+    }
+    .sub .container .ras{
+        margin-left: 0 !important;
+        text-align: center;
+        
+    }
+    .sub .container .foto-input .text-woman h3{
+        font-size: 11px !important;
+       
+    }
+    .sub .container .foto-input .text-woman .woman-orange{
+        width: 270px !important;
+        
+    }
+    .sub .container .foto-input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub .container .foto-input .input .abs{
+        width: 260px !important;
+    }
+    .sub .container .foto-input .input button{
+        width: 260px !important;
+    }
+    .sub .container .foto-input .input{
+       padding: 0 !important;
+        width: 270px !important;
+       
+        
+    }
+
+    .about .container .texttwwoman h3{
+        font-size: 11px !important;
+    }
+    .about .container .twowoman{
+        width: 270px !important;
+    }
+    .advantages .container .dostavka .fa-plane{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .advantages .container .support .fa-user{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .advantages .container .safety .fa-lock{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .advantages .container .discount .fa-percent{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .advantages .container{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .advantages .container h2{
+        font-size: 7px !important;
+
+    }
+    .advantages .container h3{
+        font-size: 8px !important;
+        
+    }
+    .green .container .buy{
+        padding-right: 0 !important;
+        
+        width: 280px;
+    }
+    .green .container .buy .infocost .perecluch .line .text1{
+        font-size: 12px !important;
+    }
+    .green .container .buy .infocost .perecluch .line .text2{
+        font-size: 12px !important;
+    }
+    .green .container .buy .infocost .perecluch .line .text3{
+        font-size: 12px !important;
+    }
+    .green .container .greencostum{
+        width: 270px !important;
+        height: 480px !important;
+    }
+    .green .container .buy .choise select{
+        width: 280px !important;
+    }
+    .green .container .buy .sell input{
+        width: 200px !important;
+        margin-left: 5px !important;
+    }
+    .green .container .buy button{
+        width: 220px !important;
+        margin-top: 20px !important;
+    }
+    .green .container .star .otziv h2{
+        font-size: 18px !important;
+    }
+    .green .container .star .ot-winter{
+        font-size: 16px !important;
+    }
+    .green .container .buy .sell h2{
+        font-size: 18px !important;
+        margin-right: 0 !important;
+    }
+    
+    .green .container .buy .infocost label{
+        font-size: 12px !important;
+        margin-right: 5px !important;
+    }
+    .green .container .buy .infocost .perecluch .text1{
+        font-size: 14px !important;
+    }
+    .green .container .buy .infocost{
+        margin-top: 20px;
+    }
+    .green .container .buy .infocost .perecluch .text2{
+        font-size: 14px !important;
+    }
+    .green .container .buy .infocost .perecluch .text3{
+        font-size: 14px !important;
+    }
+    .season .container .ns{
+        font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .season .container .otum-winter{
+        font-size: 18px !important;
+        justify-content: center;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .season .container .new-season .costumfrst .costum{
+        width: 260px !important;
+        height: 350px !important;
+        background-position-x: -80px;
+    }
+    .season .container .new-season .costumfrst h2{
+        font-size: 16px !important;
+    }
+    .season .container .new-season .costumscnd-thrd .costum2{
+        width: 260px !important;
+    }
+    .season .container .new-season .costumscnd-thrd .costum3{
+        width: 260px !important;
+    }
+    .season .container .new-season .costumscnd-thrd h2{
+        font-size: 16px !important;
+    }
+    .season .container .new-season .costumftz .costum4{
+        width: 260px !important;
+    }
+    .season .container .new-season .costumftz h2{
+        font-size: 16px !important;
+    }
+    .collection .bg{
+        height: 300px !important;
+    }
+    .collection .bg .container h2{
+        font-size: 20px !important;
+    }
+    .collection .bg .container h3{
+        font-size: 10px !important;
+    }
+    .collection .bg .container button{
+        width: 100px !important;
+        height: 30px !important;
+        font-size: 7px !important;
+    }
+    .mono .container .monocr{
+        font-size: 18px !important;
+    }
+    .mono .container .photo h2{
+        font-size: 16px !important;
+    }
+    .mono .container .photo .photo1 .frst-photo{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .mono .container .photo .photo2 .scnd-photo{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .mono .container .photo .photo3 .thd-photo{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .shop .container .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .shop .container .title h1{
+        font-size: 34px !important;
+    }
+    .shop .container .title h2{
+        font-size: 14px !important;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+    .shop .container .pictures .womans{
+        width: 255px !important;
+        background-position-x: -60px !important;
+    }
+    .shop .container .pictures .woman{
+        width: 255px !important;
+    }
+    .header-two .container h2{
+        font-size: 9px !important;
+    }
+    .header-two .container a{
+        margin-right: 5px !important;
+    }
+   
+    .header .container .laung .planet img{
+        width: 15px;
+        height: 15px;
+    }
+    .header .container .laung h2{
+        font-size: 10px !important;
+    }
+    .header .container .laung a{
+        margin-top: 5px !important;
+    }
+    .header .container .logo h2{
+        font-size: 12px !important;
+    }
+    .header .container .log .fa-magnifying-glass{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container .log a{
+        margin-right: 5px !important;
+    }
+    .header .container .log .fa-user{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container .log .fa-cart-shopping{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container{
+        padding-left: 5px !important;
+        display: flex;
+        align-items: center;
+    }
+    
+}
